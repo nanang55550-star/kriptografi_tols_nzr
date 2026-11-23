@@ -1,0 +1,33 @@
+# ==============================================================================
+# .gitignore - kriptografi_tols_nzr
+# ==============================================================================
+
+# C Build artifacts & binaries
+c_version/build/
+c_version/bin/
+build/
+bin/
+*.o
+*.a
+*.so
+*.dylib
+
+# Vault encrypted/decrypted test files
+*.gvc
+*.out
+*.vault
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
